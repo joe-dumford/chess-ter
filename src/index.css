@@ -1,7 +1,9 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-  background-color: #ECECEA;
+  background: url(images/chess-pic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 ol, ul {
@@ -19,7 +21,7 @@ ol, ul {
 }
 
 .square {
-  background: transparent;
+  background: gray;
   border: 1px solid;
   border-style: outset;
   float: left;
@@ -60,10 +62,14 @@ ol, ul {
 /*Board color scheme Wheat from http://omgchess.blogspot.com/2015/09/chess-board-color-schemes.html*/
 .dark-square{
   background-color: rgb(139, 69, 19);
+  border-style: outset;
+  border-color: black;
   }
   
   .light-square{
       background-color: burlywood;
+      border-style: outset;
+      border-color: black;
   }
   
   #player-turn-box{

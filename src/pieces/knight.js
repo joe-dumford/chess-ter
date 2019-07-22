@@ -18,7 +18,7 @@ export default class Knight extends Piece {
     }
 
     // Return an empty array because Knights can move over (jump) other pieces
-    getSrcToPath() {
+    getSrcToDestPath() {
         return [];
     }
 }
