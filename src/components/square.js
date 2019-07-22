@@ -11,4 +11,4 @@ export default function Square(props) {
   
 }
 
-//Above we are adding a statless component (Square). It renders one square in its color and piece (if exists), the complete info of which is recieved through props in the form of a style object, onClick and shade of square(dark/light).
+//Above we are adding a Stateless Component (Square). It renders one square in its color and piece (if exists), the complete info of which is recieved through props in the form of a style object, onClick and shade of square(dark/light).
