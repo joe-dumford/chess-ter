@@ -1,5 +1,4 @@
 {
-  "homepage": "https://joe-dumford.github.io/chess-ter",
   "name": "chess-ter",
   "version": "0.1.0",
   "private": true,
@@ -16,22 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "gh-pages": "^2.0.1"
-  }
+  },
+  "homepage": "https://joe-dumford.github.io/chess-ter"
 }
