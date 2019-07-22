@@ -63,13 +63,13 @@ ol, ul {
 .dark-square{
   background-color: rgb(139, 69, 19);
   border-style: outset;
-  border-color: black;
+  border-color: grey;
   }
   
   .light-square{
       background-color: burlywood;
       border-style: outset;
-      border-color: black;
+      border-color: grey;
   }
   
   #player-turn-box{
@@ -80,6 +80,7 @@ ol, ul {
   }
   
   h3{
+    font-family: 'Geostar Fill', cursive;
     margin-bottom: 5px;
   }
 
