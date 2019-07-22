@@ -3,7 +3,7 @@ import Piece from './piece.js';
 export default class Bishop extends Piece {
     // Creating a constructor for player. Determining if it is the first or second player and assigning appropriate piece image
     constructor(player) {
-        super(player, (player === 1 ? "https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces#/media/File:Chess_blt45.svg" : "https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces#/media/File:Chess_bdt45.svg"));
+        super(player, (player === 1 ? "https://upload.wikimedia.org/wikipedia/commons/b/b1/Chess_blt45.svg" : "https://upload.wikimedia.org/wikipedia/commons/9/98/Chess_bdt45.svg"));
     }
 
     isMovePossible(src, dest) {

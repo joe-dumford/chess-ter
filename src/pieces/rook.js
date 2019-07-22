@@ -3,7 +3,7 @@ import Piece from './piece';
 export default class Rook extends Piece {
     // Creating a constructor for player. Determining if it is the first or second player and assigning appropriate piece image
     constructor(player) {
-        super(player, (player === 1 ? "https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces#/media/File:Chess_rlt45.svg" : "https://commons.wikimedia.org/wiki/Category:SVG_chess_pieces#/media/File:Chess_rdt45.svg"));
+        super(player, (player === 1 ? "https://upload.wikimedia.org/wikipedia/commons/7/72/Chess_rlt45.svg" : "https://upload.wikimedia.org/wikipedia/commons/f/ff/Chess_rdt45.svg"));
     }
 
     isMovepossible(src, dest) {
@@ -15,7 +15,7 @@ export default class Rook extends Piece {
     getSrcToDestPath(src, dest) {
         let path = [],
             pathStart, pathEnd, incrementBy;
-        if (src > des) {
+        if (src > dest) {
             pathStart = dest;
             pathEnd = src;
         } else {
