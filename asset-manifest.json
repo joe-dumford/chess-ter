@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chess-ter/static/css/main.2a51d35b.chunk.css",
+    "main.js": "/chess-ter/static/js/main.ae87e9ef.chunk.js",
+    "main.js.map": "/chess-ter/static/js/main.ae87e9ef.chunk.js.map",
+    "runtime~main.js": "/chess-ter/static/js/runtime~main.6ac25b9a.js",
+    "runtime~main.js.map": "/chess-ter/static/js/runtime~main.6ac25b9a.js.map",
+    "static/js/2.a8b47847.chunk.js": "/chess-ter/static/js/2.a8b47847.chunk.js",
+    "static/js/2.a8b47847.chunk.js.map": "/chess-ter/static/js/2.a8b47847.chunk.js.map",
+    "index.html": "/chess-ter/index.html",
+    "precache-manifest.d7ad8fbc1baeaead304e5744b7ee5333.js": "/chess-ter/precache-manifest.d7ad8fbc1baeaead304e5744b7ee5333.js",
+    "service-worker.js": "/chess-ter/service-worker.js",
+    "static/css/main.2a51d35b.chunk.css.map": "/chess-ter/static/css/main.2a51d35b.chunk.css.map",
+    "static/media/index.css": "/chess-ter/static/media/chess-pic.bd654982.jpg"
+  }
+}
