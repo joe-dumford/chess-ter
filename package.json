@@ -2,6 +2,10 @@
   "name": "chess-ter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joe-dumford.github.io/chess-ter",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -15,10 +19,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  },
-  "homepage": "https://joe-dumford.github.io/chess-ter",
   "browserslist": {
     "production": [
       ">0.2%",
